@@ -1,0 +1,18 @@
+1 安装
+1）安装在当前目录下
+npm install 包名
+查看路径：npm root
+2）安装在全局
+npm install 包名 -g
+查看路径：npm root -g
+
+卸载已经安装的包：npm uninstall 包名
+列出已经安装的包：npm ls 
+更新已经安装的包：npm update 包名
+
+创建pacgage.json
+npm init 初始化
+然后根据提示写
+发布：
+登录/注册:npm adduser
+发布：npm publish
